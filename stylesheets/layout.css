@@ -1,0 +1,339 @@
+
+/* #Site Styles
+==================================================
+1.0 General Typorgraphy
+2.0 Common Preset
+3.0 Header
+4.0 Profile
+5.0 Experience Timeline
+6.0 Clients Area
+7.0 Testimonial Area
+8.0 Contact Area
+9.0 Footer Area
+================================================== */
+/*========================================
+ 	==== 1.0 General Typorgraphy ====
+========================================*/
+@import 'https://fonts.googleapis.com/css?family=Lato:300,400,700,900';
+
+body {
+	background:#fff;
+	font-family: 'Lato', sans-serif;
+	line-height:1.6em;
+	overflow-x:hidden;
+	color:#000000;
+}
+* {
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing:border-box;
+	box-sizing:border-box;
+}
+
+/*===== Lists =====*/
+ul, ol { margin-bottom:0px; }
+ul li { margin-bottom:15px; }
+/*===== End Lists =====*/
+
+a { color:#00bbcc; }
+a:focus, a:hover, a.active {color:#00bbcc;  }
+section{
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  font-size:20px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  font-size:20px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  font-size:20px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+:-moz-placeholder { /* Firefox 18- */
+  font-size:20px !important;
+  font-family: 'Lato', sans-serif !important;
+}
+::placeholder{
+	font-size:20px !important;
+	font-family: 'Lato', sans-serif !important;
+}
+
+
+
+/*========================================
+ 	==== End General Typorgraphy ====
+========================================*/
+/*========================================
+ 	==== 2.0 Common Preset ====
+========================================*/
+.no_padding_left{
+	padding-left:0px !important;
+}
+.no_padding_right{
+	padding-right:0px !important;
+}
+.rzm_button a{
+	max-width:160px;
+	margin:40px auto;
+	display:block;
+	border-radius:20px;
+	color:#808080 !important;
+	border-color:#b2b2b2 !important;
+	font-family: 'Lato', sans-serif; font-weight:900;
+	font-size:20px;
+	padding: 8px 10px;
+	border-width:2px !important;
+	background:#fcfcfc;
+
+}
+.rzm_button a:hover{
+	color:#fff !important;
+	background:#0abfbf;
+	border-color:#0abfbf !important;
+}
+.rzm_button i{
+	padding-right:7px;
+}
+.form-control:focus {
+  border-color: #00b3ab;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 1px rgba(0, 179, 171, 1) !important;
+}
+/*========================================
+ 	==== End Common Preset ====
+========================================*/
+/*========================================
+ 	==== 3.0 Header ====
+========================================*/
+.img-circle {
+   -moz-border-radius: 40% !important;
+   -webkit-border-radius: 40%;
+	 border-radius: 40%;
+}
+.rzm_outside-header {
+	width:100%;
+	background:url(../img/12.png) no-repeat center center;
+	min-height:500px;
+}
+.rzm_profile_nav{
+}
+/*tyler 1 head icon positioning
+/*===== .logo =====*/
+.logo img{
+	margin-top:-150px;
+	max-width: 250px;
+}
+/*===== End .logo =====*/
+
+.sticky{
+ position:fixed;
+ display:block;
+ z-index:1000;
+}
+
+.rzm_main_menu{
+	background:#f2f2f2;
+	margin-top:-80px;
+	max-width:200px;
+	margin-left:25px;
+	padding-top:65px;
+	padding-bottom:20px;
+	border-bottom-left-radius:20px;
+	border-bottom-right-radius:20px;
+}
+.rzm_profile_nav ul{
+ list-style:none;
+
+}
+.rzm_profile_nav .primary li {
+ color:#373737;
+ text-align:left;
+ height:20px;
+}
+.rzm_profile_nav .primary li a {
+	font-family: 'Lato', sans-serif;
+ text-decoration:none;
+ color:#000;
+ font-weight:700;
+ font-size:20px;
+}
+.rzm_profile_nav .primary li a:hover{
+ color:#0abfbf;
+}
+.go_to_top i{
+	font-size: 20px;
+    margin-left: 2px;
+}
+.social_nav{
+	text-align:center;
+}
+.social_nav a{
+	padding:10px;
+	color:#000;
+}
+.social_nav a:hover{
+	color:#00bbcc;
+}
+
+
+/*========================================
+ 	==== End Header ====
+========================================*/
+
+/*========================================
+ 	====4.0 Profile ====
+hi my name is varun raman title */
+.rez_about{
+	position:relative;
+}
+
+.rez_top_title h1{
+	color:#fd8682;
+	font-family: 'Lato', sans-serif; font-weight:900;
+	margin-top:-75px;
+	font-size:48px;
+}
+.rez_top_title p{
+	color:#fd8682;
+	font-size:28px;
+	align-items="center;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	margin-top:32px;
+	}
+h1.title {
+	color:#000000;
+	border-bottom:1px solid #bfbfbf;
+	text-align:"center"
+	font-size:28px;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	padding: 135px 0 36px 0;
+}
+.rzm_progress_bar{
+}
+.rzm_progress_bar h4{
+	color:#000000 !important;
+	font-family: 'Lato', sans-serif; font-weight:900;
+
+}
+.rzm_progress_bar .progress {
+    height: 3px !important;
+	margin-bottom:31px;
+}
+.rzm_progress_bar .progress-bar{
+	background:#fe8185;
+}
+.rzm_perchantage{
+	margin-top:-30px;
+	font-size:16px;
+	font-weight:400;
+	color:#000000;
+
+}
+.progress-bar {
+	-webkit-transition:all 0.8s ease-in-out;
+    -moz-transition:all 0.8s ease-in-out;
+    -o-transition:all 0.8s ease-in-out;
+    transition:all 0.8s ease-in-out;
+}
+
+/*========================================
+ 	====End Profile ====
+About me fonting  ==*/
+
+.about{
+	padding-right: 0px !important;
+    padding-left: 0px !important;
+
+	}
+.about_info{
+	line-height: 34px;
+    font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	 font-weight:520;
+	margin: 19px 0 -100px 0;
+}
+.about_info a{
+	color:#000000;
+	text-decoration:none;
+}
+
+/*========================================
+ 	====6.0 Clients Area====
+========================================*/
+.rzm_client p{
+	line-height: 34px;
+	font-size: 20px;
+	font-family: 'Lato', sans-serif;
+	margin: 19px 0 30px 0;
+	font-weight:520;
+}
+
+.Job {
+	width: 700px;
+	height: 800px;
+	background-image: url(img/job.png);
+	margin-left: 50px;
+
+}
+
+.a1{
+	margin: 1009px 0 300px 11px;
+}
+
+.a{
+	width: 900px;
+	height: 500px;
+	margin-bottom: 1px;
+	background-image: url(img/16p.png);
+	margin-right: 100px
+
+}
+
+.b{
+	width: 900px;
+	height: 300px;
+margin-top: -250px;
+background-image: url(img/16p1.png);
+margin-right: 100px;
+
+
+}
+
+.c{
+	width: 900px;
+	height: 600px;
+margin-top: -px;
+background-image: url(img/l1.png);
+margin-right: 100px;
+
+}
+
+.d{
+	width: 900px;
+	height: 450px;
+margin-top: -px;
+background-image: url(img/c1.png);
+margin-right: 100px;
+}
+
+.title1{
+	color:#000000;
+	border-bottom:1px solid #bfbfbf;
+	text-align:"center"
+	font-size:28px;
+	font-family: 'Lato', sans-serif; font-weight:700;
+	padding: 1px 0 36px 0;
+}
+
+.title2{
+	color:#000000;
+	border-bottom:1px solid #bfbfbf;
+	text-align:"center"
+	font-size:28px;
+	font-family: 'Lato', sans-serif; font-weight:500;
+	padding: 1px 0 36px 0;
+}
+
+}

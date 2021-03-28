@@ -1,0 +1,221 @@
+/*========================================
+    ==== Start Media Query ====
+========================================*/
+/* Midium screens ----------- */
+@media (min-width:1300px){
+	.rzm_outside-header {
+	width:100%;
+	background:url(../img/t123.png) no-repeat;
+	min-height:200px;
+}
+.thumbnail .media-object{
+	min-width:125%;
+}
+.rzm_Testimonial .carousel-indicators {
+    bottom: 10px;
+    left: 233px;
+}
+	.rzm_contact .input-group:nth-child(1){
+	float:left !important;
+	padding-left: 0px !important;
+
+}
+	.rzm_contact .input-group:nth-child(3){
+	float:left !important;
+	padding-right:0px !important;
+
+}
+	.rzm_contact .input-group:nth-child(5){
+	float:left !important;
+	padding-left:0px !important;
+	padding-right:0px !important;
+
+}
+
+}
+/* Large screens ----------- */
+@media (min-width:1600px){
+	.rzm_outside-header {
+	width:100%;
+	background:url(../img/t123.png) no-repeat;
+	min-height:300px;
+}
+	.
+}
+	.rzm_profile_nav .primary li.first{
+	margin-top: 30px;
+}
+
+
+}
+
+
+/*Mobile Menu Css*/
+
+@media (max-width:767px) {
+
+	h1.title{
+	padding: 90px 0 18px 0;
+	font-size: 24px;
+}
+
+	.rzm_outside-header {
+	width:100%;
+	background:url(../img/t123.png) no-repeat;
+	min-height:178px;
+	}
+
+	.rzm_client_img img{
+	margin:0 auto;
+	display:block;
+	padding:20px 0px;
+}
+	.rzm_Testimonial .carousel-indicators{
+	width:100%;
+	left:32.5%;
+}
+	.caption blockquote{
+	width: 100%;
+	margin-bottom: 30px;
+}
+	.caption blockquote small {
+    line-height: 18px !important;
+}
+
+
+.rez_top_title h1{
+	color: #404040;
+	font-size: 24px;
+	}
+.rez_top_title h1, .rez_top_title p{
+	text-align: center;
+	padding: 0 10px;
+	margin-top: 15px;
+}
+.rez_top_title p{
+	font-size: 16px;
+	color: #808080;
+	margin-top: 30px;
+	}
+.navbar-fixed-bottom, .navbar-fixed-top {
+    position: fixed !important;
+	}
+body.slide-active {
+    overflow-x: hidden
+}
+.no-margin-top {
+    margin-top: 0px!important
+}
+#page-content {
+    position: relative;
+    padding-top: 70px;
+    left: 0;
+}
+
+	#navbar-height-col {
+	    position: fixed;
+	    top: 0;
+	    height: 100%;
+      bottom:0;
+	    width: 60%;
+	    left: -80%;
+	    background: #f7f7f7;
+	}
+	#navbar-height-col.inverse {
+	    background: #333;
+	    z-index: 999;
+	    border: 0;
+	}
+	#slide-nav .navbar-form {
+	    width: 100%;
+	    margin: 8px 0;
+	    text-align: center;
+	    overflow: hidden;
+
+	}
+	#slide-nav .navbar-form .form-control {
+	    text-align: center
+	}
+	#slide-nav .navbar-form .btn {
+	    width: 100%
+	}
+	#slidemenu ul li {
+    position: relative;
+    line-height: 20px;
+    display: inline-block;
+    width: 100%;
+}
+	.navbar-header.slide-active{
+		z-index: 999999;
+
+	}
+
+#slidemenu ul li:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    height: 100%;
+    width: 3px;
+    background-color: #1c1c1c;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+#slidemenu li:hover:before,
+#slidemenu li.open:hover:before {
+    width: 100%;
+    -webkit-transition: width .2s ease-in;
+      -moz-transition:  width .2s ease-in;
+       -ms-transition:  width .2s ease-in;
+            transition: width .2s ease-in;
+
+}
+
+#slidemenu li a {
+    display: block;
+    color: #ddd;
+    text-decoration: none;
+    padding: 10px 15px 10px 30px;
+}
+
+#slidemenu li a:hover,
+#slidemenu li a:active,
+#slidemenu li a:focus,
+#slidemenu li.open a:hover,
+#slidemenu li.open a:active,
+#slidemenu li.open a:focus{
+    color: #fff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.navbar-inverse {
+	background-color:transparent !important;
+	border-color: transparent !important;
+	}
+	.sticky{
+ position:relative;
+ z-index:1000;
+}
+.logo img {
+    max-width: 200px;
+    margin: -200px auto 20px auto;
+}
+	#rzm_timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 1px;
+  background-color: #b2b2b2;
+  left: 12%;
+  margin-left: -1.5px;
+}
+
+
+/*========================================
+    ==== End Media Query ====
+========================================*/
